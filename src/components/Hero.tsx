@@ -566,7 +566,7 @@ export default function Hero() {
               alt="Enfants heureux"
               width={1400}
               height={1400}
-              className="object-contain absolute z-10 w-[1000px] h-[1000px] opacity-50 brightness-110"
+              className="object-contain absolute z-10 w-[1000px] h-[1000px] opacity-80 brightness-110"
               style={{ clipPath: "url(#blobClip)" }}
             />
             {/* Decorative dots */}
