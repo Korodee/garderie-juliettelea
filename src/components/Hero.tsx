@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaTimes } from "react-icons/fa";
-import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import { useLanguage } from "@/contexts/LanguageContext";
 import {
@@ -33,28 +32,24 @@ const decorVariants = {
 // Slideshow images
 const slideshowImages = [
   {
-    src: "/Pouponniere-classe.jpg",
-    alt: "Classe des pouponnières - Garderie Aimée",
+    src: "/hero-1.jpg",
+    alt: "Hero image 1 - Garderie Aimée",
   },
   {
-    src: "/Trotinneurs-classe2.jpg",
-    alt: "Classe des trottineurs - Garderie Aimée",
+    src: "/hero-2.jpg",
+    alt: "Hero image 2 - Garderie Aimée",
   },
   {
-    src: "/Trotinneurs-classe3.jpg",
-    alt: "Classe des trottineurs en activité - Garderie Aimée",
+    src: "/hero-3.jpg",
+    alt: "Hero image 3 - Garderie Aimée",
   },
   {
-    src: "/Trotinneurs-classe.jpg",
-    alt: "Classe des trottineurs - Garderie Aimée",
+    src: "/hero-4.jpg",
+    alt: "Hero image 4 - Garderie Aimée",
   },
   {
-    src: "/Bambins-classe.jpg",
-    alt: "Classe des bambins - Garderie Aimée",
-  },
-  {
-    src: "/Sale-de-prescolaire.jpg",
-    alt: "Classe préscolaire - Garderie Aimée",
+    src: "/hero-5.jpg",
+    alt: "Hero image 5 - Garderie Aimée",
   },
 ];
 
@@ -381,7 +376,7 @@ export default function Hero() {
       </div>
 
       {/* Background Overlay */}
-      <div className="absolute inset-0 bg-black/70"></div>
+      <div className="absolute inset-0 bg-black/40"></div>
 
       {/* Slide Indicators */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-30 flex space-x-3">
@@ -460,13 +455,6 @@ export default function Hero() {
         )}
       </AnimatePresence>
 
-      {/* Custom SVG Blob Background
-      <div className="absolute top-0 left-0 w-full z-10">
-        <svg viewBox="0 0 1440 320" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-48 md:h-64">
-          <path fill="#e0e7ff" d="M0,160 C360,320 1080,0 1440,200 L1440,320 L0,320 Z" />
-        </svg>
-      </div> */}
-
       {/* Floating Decorative Elements */}
       {floatingToys.map((toy, i) => (
         <motion.div
@@ -516,7 +504,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.35, duration: 0.7, type: "spring" }}
-            className="text-lg md:text-xl text-slate-300 mb-6 max-w-xl mx-auto md:mx-0"
+            className="text-lg md:text-xl text-slate-200 mb-6 max-w-xl mx-auto md:mx-0"
           >
             {t("hero.description")}
           </motion.p>
@@ -551,29 +539,7 @@ export default function Hero() {
           </motion.div>
         </motion.div>
 
-        {/* Hero Image with Blob Mask */}
-        <motion.div
-          initial={{ opacity: 0, x: 40 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8, type: "spring" }}
-          className="flex-1 flex justify-center md:justify-end"
-        >
-          <div className="relative hidden md:flex w-96 h-96 md:w-[600px] md:h-[600px] items-center justify-center">
-            {/* Blob SVG mask */}
-
-            <Image
-              src="/teddy.png"
-              alt="Enfants heureux"
-              width={1400}
-              height={1400}
-              className="object-contain absolute z-10 w-[1000px] h-[1000px] opacity-80 brightness-110"
-              style={{ clipPath: "url(#blobClip)" }}
-            />
-            {/* Decorative dots */}
-            <span className="absolute bottom-6 right-6 w-6 h-6 bg-blue-100 rounded-full opacity-60" />
-            <span className="absolute top-8 left-8 w-4 h-4 bg-pink-100 rounded-full opacity-60" />
-          </div>
-        </motion.div>
+        {/* Hero Image with Blob Mask removed as requested */}
       </div>
     </section>
   );
