@@ -56,15 +56,18 @@ const slideshowImages = [
 export default function Hero() {
   const { t } = useLanguage();
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
-  
-  const navLinks = React.useMemo(() => [
-    { href: "#presentation", label: t("nav.presentation") },
-    { href: "#programme", label: t("nav.program") },
-    { href: "/gallery", label: t("nav.gallery") },
-    { href: "#admission", label: t("nav.admission") },
-    { href: "#contact", label: t("nav.contact") },
-  ], [t]);
-  
+
+  const navLinks = React.useMemo(
+    () => [
+      { href: "#presentation", label: t("nav.presentation") },
+      { href: "#programme", label: t("nav.program") },
+      { href: "/gallery", label: t("nav.gallery") },
+      { href: "#admission", label: t("nav.admission") },
+      { href: "#contact", label: t("nav.contact") },
+    ],
+    [t]
+  );
+
   const [active, setActive] = useState(navLinks[0].href);
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -355,7 +358,7 @@ export default function Hero() {
   ];
 
   return (
-    <section className="relative overflow-hidden min-h-screen flex flex-col justify-center">
+    <section className="relative overflow-hidden h-[100svh] md:min-h-screen flex flex-col justify-center">
       {/* Animated Background Slideshow */}
       <div className="absolute inset-0">
         <AnimatePresence>
