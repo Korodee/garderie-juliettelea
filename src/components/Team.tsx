@@ -1,154 +1,36 @@
 "use client";
 
 import { motion } from "framer-motion";
-import {
-  FaBaby,
-  FaChild,
-  FaUserFriends,
-  FaGraduationCap,
-  FaStar,
-  FaCrown,
-  FaHeart,
-} from "react-icons/fa";
+import { FaStar, FaHeart } from "react-icons/fa";
 import Image from "next/image";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const Team = () => {
   const { t } = useLanguage();
 
-  const teamSections = [
-    {
-      title: t("team.sections.direction.title"),
-      icon: <FaCrown className="text-white" />,
-      color: "from-amber-400 to-orange-500",
-      bgColor: "from-amber-50 to-orange-50",
-      members: [
-        {
-          name: "Mayara",
-          role: t("team.roles.directrice"),
-          image: "/Equipe-staff-board.jpg",
-        },
-        {
-          name: "Natasha",
-          role: t("team.roles.directrice"),
-          image: "/Equipe-staff-board.jpg",
-        },
-      ],
-    },
-    {
-      title: t("team.sections.pouponniere.title"),
-      subtitle: t("team.sections.pouponniere.subtitle"),
-      icon: <FaBaby className="text-white" />,
-      color: "from-pink-400 to-rose-500",
-      bgColor: "from-pink-50 to-rose-50",
-      members: [
-        {
-          name: "Simranjit",
-          role: t("team.roles.pouponniere.0_8"),
-          image: "/Classe-juliettelea-21.jpg",
-        },
-        {
-          name: "Kristin",
-          role: t("team.roles.pouponniere.9_12"),
-          image: "/Classe-juliettelea-22.jpg",
-        },
-        {
-          name: "Carmen",
-          role: t("team.roles.pouponniere.12_18"),
-          image: "/Classe-juliettelea-23.jpg",
-        },
-      ],
-    },
-    {
-      title: t("team.sections.trottineurs.title"),
-      subtitle: t("team.sections.trottineurs.subtitle"),
-      icon: <FaChild className="text-white" />,
-      color: "from-blue-400 to-indigo-500",
-      bgColor: "from-blue-50 to-indigo-50",
-      members: [
-        {
-          name: "Daphney",
-          role: t("team.roles.trottineurs.18_24"),
-          image: "/Classe-juliettelea-24.jpg",
-        },
-        {
-          name: "Souad",
-          role: t("team.roles.trottineurs.24_30"),
-          image: "/Classe-juliettelea-25.jpg",
-        },
-        {
-          name: "Li",
-          role: t("team.roles.trottineurs.30_36"),
-          image: "/Classe-juliettelea-26.jpg",
-        },
-      ],
-    },
-    {
-      title: t("team.sections.bambins.title"),
-      subtitle: t("team.sections.bambins.subtitle"),
-      icon: <FaUserFriends className="text-white" />,
-      color: "from-green-400 to-emerald-500",
-      bgColor: "from-green-50 to-emerald-50",
-      members: [
-        {
-          name: "Fiona",
-          role: t("team.roles.educatrice"),
-          image: "/Classe-juliettelea-15.jpg",
-        },
-        {
-          name: "Stéphanie",
-          role: t("team.roles.educatrice"),
-          image: "/Classe-juliettelea-10.jpg",
-        },
-        {
-          name: "Drissia",
-          role: t("team.roles.educatrice"),
-          image: "/Classe-juliettelea-8.jpg",
-        },
-      ],
-    },
-    {
-      title: t("team.sections.prescolaire.title"),
-      subtitle: t("team.sections.prescolaire.subtitle"),
-      icon: <FaGraduationCap className="text-white" />,
-      color: "from-purple-400 to-violet-500",
-      bgColor: "from-purple-50 to-violet-50",
-      members: [
-        {
-          name: "Popi",
-          role: t("team.roles.educatrice"),
-          image: "/Classe-juliettelea-5.jpg",
-        },
-        {
-          name: "Bassma",
-          role: t("team.roles.educatrice"),
-          image: "/Classe-juliettelea-4.jpg",
-        },
-      ],
-    },
-    {
-      title: t("team.sections.soutien.title"),
-      icon: <FaHeart className="text-white" />,
-      color: "from-teal-400 to-cyan-500",
-      bgColor: "from-teal-50 to-cyan-50",
-      members: [
-        {
-          name: "Silvie",
-          role: t("team.roles.cuisiniere"),
-          image: "/Cuisine-principale-2.jpg",
-        },
-        {
-          name: "Khadidja",
-          role: t("team.roles.remplacante"),
-          image: "/Classe-juliettelea-9.jpg",
-        },
-        {
-          name: "Amani",
-          role: t("team.roles.remplacante"),
-          image: "/Classe-juliettelea-6.jpg",
-        },
-      ],
-    },
+  const teamMembers = [
+    { name: "Karina Orellana", image: "/Karina-Orellana.jpg" },
+    { name: "Mariem Hermassi", image: "/Mariem-Hermassi.jpg" },
+    { name: "Zanat Zanat", image: "/Zanat-Zanat.jpg" },
+    { name: "Marla Vicente", image: "/Marla-Vicente-Orthophoniste.jpg" },
+    { name: "Coach Pablo", image: "/Coach-Pablo.jpg" },
+    { name: "Sheila Layne", image: "/Sheila-Layne.jpg" },
+    { name: "Manpreet Kaur", image: "/Manpreet-Kaur.jpg" },
+    { name: "Gloria Vega Guzman", image: "/Gloria-Vega-Guzman.jpg" },
+    { name: "Xiangling Liao", image: "/Xiangling-Liao.jpg" },
+    { name: "Ria Atienza", image: "/Ria-Atienza.jpg" },
+    { name: "Madeleine Kouassi", image: "/Madeleine-Kouassi.jpg" },
+    { name: "Natasha Cordice", image: "/Natasha-Cordice.jpg" },
+    { name: "Regina Boniface", image: "/Regina-Boniface.jpg" },
+    { name: "Ximena Alvarez", image: "/Ximena-Alvarez.jpg" },
+    { name: "Mary Rose Mandac", image: "/Mary-Rose-Mandac.jpg" },
+    { name: "Sampath Shrivatchala", image: "/Sampath-Shrivatchala.jpg" },
+    { name: "Rachida Benmansour", image: "/Rachida-Benmansour.jpg" },
+    { name: "Firoozeh Karimi Vishkaei", image: "/Firoozeh-Karimi-Vishkaei.jpg" },
+    { name: "Asako Tanaka", image: "/Asako-Tanaka.jpg" },
+    { name: "Keltoum Sator", image: "/Keltoum-Sator.jpg" },
+    { name: "Denise Peasland", image: "/Denise-Peasland.jpg" },
+    { name: "Chevorn Arrington", image: "/Chevorn-Arrington.jpg" },
   ];
 
   return (
@@ -204,96 +86,28 @@ const Team = () => {
 
       {/* Team Grid */}
       <div className="relative z-10 max-w-6xl mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {teamSections.map((section, index) => (
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2.5 sm:gap-3">
+          {teamMembers.map((member, index) => (
             <motion.div
-              key={section.title}
+              key={member.name}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: index * 0.1 }}
+              transition={{ duration: 0.6, delay: index * 0.05 }}
               viewport={{ once: true }}
-              className="group"
+              className="group flex flex-col items-center text-center bg-white/95 rounded-lg p-2.5 sm:p-3 shadow-sm border border-slate-100 hover:-translate-y-1 hover:shadow-md transition-all duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-300"
             >
-              <div
-                className={`relative rounded-2xl bg-gradient-to-br ${section.bgColor} p-6 shadow-lg hover:shadow-xl transition-all duration-300 group-hover:-translate-y-1 border border-white/50`}
-              >
-                {/* Section Header */}
-                <div className="flex items-center gap-3 mb-4">
-                  <div
-                    className={`w-10 h-10 rounded-full bg-gradient-to-r ${section.color} flex items-center justify-center text-white shadow-md`}
-                  >
-                    {section.icon}
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-gray-800 text-lg">
-                      {section.title}
-                    </h3>
-                    {section.subtitle && (
-                      <p className="text-sm text-gray-600">
-                        {section.subtitle}
-                      </p>
-                    )}
-                  </div>
-                </div>
-
-                {/* Team Members */}
-                <div className="space-y-3">
-                  {section.members.map((member, memberIndex) => (
-                    <motion.div
-                      key={member.name}
-                      initial={{ opacity: 0, x: -20 }}
-                      whileInView={{ opacity: 1, x: 0 }}
-                      transition={{ duration: 0.4, delay: memberIndex * 0.1 }}
-                      viewport={{ once: true }}
-                      className="flex items-center gap-3 p-3 bg-white/70 rounded-xl hover:bg-white/90 transition-colors duration-200"
-                    >
-                      {/* Avatar */}
-                      <div className="relative">
-                        <div className="w-12 h-12 rounded-full overflow-hidden shadow-md border-2 border-white">
-                          {member.image.endsWith(".svg") ? (
-                            <Image
-                              src={member.image}
-                              alt={`${member.name} - ${member.role}`}
-                              width={48}
-                              height={48}
-                              className="w-full h-full object-cover"
-                            />
-                          ) : (
-                            <Image
-                              src={member.image}
-                              alt={`${member.name} - ${member.role}`}
-                              width={48}
-                              height={48}
-                              className="w-full h-full object-cover"
-                            />
-                          )}
-                        </div>
-                        <div
-                          className={`absolute -bottom-1 -right-1 w-3 h-3 rounded-full bg-gradient-to-r ${section.color} border-2 border-white`}
-                        ></div>
-                      </div>
-
-                      {/* Info */}
-                      <div className="flex-1 min-w-0">
-                        <h4 className="font-semibold text-gray-800 text-sm truncate">
-                          {member.name}
-                        </h4>
-                        <p className="text-xs text-gray-600 truncate">
-                          {member.role}
-                        </p>
-                      </div>
-
-                      {/* Decorative Element */}
-                      <div
-                        className={`w-2 h-2 rounded-full bg-gradient-to-r ${section.color} opacity-60`}
-                      ></div>
-                    </motion.div>
-                  ))}
-                </div>
-
-                {/* Hover Effect */}
-                <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-transparent via-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
+              <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden shadow-md border border-white ring-2 ring-transparent group-hover:ring-indigo-200 transition">
+                <Image
+                  src={member.image}
+                  alt={member.name}
+                  fill
+                  className="object-cover"
+                  sizes="96px"
+                />
               </div>
+              <p className="mt-1.5 text-xs sm:text-sm font-semibold text-slate-800 leading-tight line-clamp-2">
+                {member.name}
+              </p>
             </motion.div>
           ))}
         </div>
