@@ -6,15 +6,15 @@ import { LanguageProvider } from "@/contexts/LanguageContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Garderie Aimée",
+  title: "Garderie JulietteLea",
   description:
-    "Une garderie de qualité à Saint-Laurent, Montréal. Découvrez notre approche éducative bilingue et notre environnement sécuritaire pour enfants de 0 à 5 ans.",
-  metadataBase: new URL("https://garderieaimee.ca"),
+    "Une garderie de qualité sur le boulevard Decarie à Montréal. Découvrez notre approche éducative bilingue et notre environnement sécuritaire pour enfants de 0 à 5 ans.",
+  metadataBase: new URL("https://garderiejuliettelea.ca"),
   openGraph: {
-    title: "Garderie Aimée",
-    description: "Une garderie de qualité à Saint-Laurent, Montréal",
-    url: "https://garderieaimee.ca",
-    siteName: "Garderie Aimée",
+    title: "Garderie JulietteLea",
+    description: "Une garderie de qualité sur le boulevard Decarie à Montréal",
+    url: "https://garderiejuliettelea.ca",
+    siteName: "Garderie JulietteLea",
   },
 };
 

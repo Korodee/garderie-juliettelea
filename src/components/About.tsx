@@ -20,24 +20,24 @@ import { useLanguage } from "@/contexts/LanguageContext";
 // Classroom slideshow images
 const classroomImages = [
   {
-    src: "/Trotinneurs-classe3.jpg",
-    alt: "Classe des trottineurs - Garderie Aimée",
+    src: "/Classe-juliettelea-1.jpg",
+    alt: "Classe - Garderie JulietteLea",
   },
   {
-    src: "/Pouponniere-classe.jpg",
-    alt: "Classe des pouponnières - Garderie Aimée",
+    src: "/Classe-juliettelea-7.jpg",
+    alt: "Classe - Garderie JulietteLea",
   },
   {
-    src: "/Trotinneurs-classe2.jpg",
-    alt: "Classe des trottineurs en activité - Garderie Aimée",
+    src: "/Classe-juliettelea-14.jpg",
+    alt: "Classe - Garderie JulietteLea",
   },
   {
-    src: "/Bambins-classe.jpg",
-    alt: "Classe des bambins - Garderie Aimée",
+    src: "/Classe-juliettelea-22.jpg",
+    alt: "Classe - Garderie JulietteLea",
   },
   {
-    src: "/Sale-de-prescolaire.jpg",
-    alt: "Classe préscolaire - Garderie Aimée",
+    src: "/Classe-juliettelea-27.jpg",
+    alt: "Classe - Garderie JulietteLea",
   },
 ];
 

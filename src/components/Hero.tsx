@@ -32,24 +32,24 @@ const decorVariants = {
 // Slideshow images
 const slideshowImages = [
   {
-    src: "/hero-1.jpg",
-    alt: "Hero image 1 - Garderie Aimée",
+    src: "/Classe-juliettelea-3.jpg",
+    alt: "Salle de classe lumineuse - Garderie JulietteLea",
   },
   {
-    src: "/hero-2.jpg",
-    alt: "Hero image 2 - Garderie Aimée",
+    src: "/Classe-juliettelea-6.jpg",
+    alt: "Espace d'apprentissage interactif - Garderie JulietteLea",
   },
   {
-    src: "/hero-3.jpg",
-    alt: "Hero image 3 - Garderie Aimée",
+    src: "/Classe-juliettelea-10.jpg",
+    alt: "Centre de jeux éducatifs - Garderie JulietteLea",
   },
   {
-    src: "/hero-4.jpg",
-    alt: "Hero image 4 - Garderie Aimée",
+    src: "/Classe-juliettelea-14.jpg",
+    alt: "Atelier créatif en classe - Garderie JulietteLea",
   },
   {
-    src: "/hero-5.jpg",
-    alt: "Hero image 5 - Garderie Aimée",
+    src: "/Classe-juliettelea-21.jpg",
+    alt: "Zone lecture et détente - Garderie JulietteLea",
   },
 ];
 

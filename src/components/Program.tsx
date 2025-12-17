@@ -67,8 +67,8 @@ const Program = () => {
         <div className="flex justify-center mb-12">
           <div className="w-full max-w-3xl rounded-3xl overflow-hidden shadow-xl border-4 border-white">
             <Image
-              src="/Trotinneurs-classe2.jpg"
-              alt="Enfants heureux à la garderie Aimée"
+              src="/Classe-juliettelea-11.jpg"
+              alt="Enfants heureux à la garderie JulietteLea"
               width={1200}
               height={400}
               className="w-full h-[220px] md:h-[350px] object-cover rounded-3xl"

@@ -20,8 +20,16 @@ const Gallery = () => {
       color: "from-blue-400 to-indigo-500",
       bgColor: "from-blue-50 to-indigo-50",
       images: [
-        "/Entree.jpg",
-        "/Entree2.jpg"
+        "/Entree-juliettelea-1.jpg",
+        "/Entree-juliettelea-2.jpg",
+        "/Entree-juliettelea-3.jpg",
+        "/Entree-juliettelea-4.jpg",
+        "/Entree-juliettelea-5.jpg",
+        "/Entree3.jpg",
+        "/Equipe-staff-board.jpg",
+        "/Reception-cubbies.jpg",
+        "/Reception-desk-1.jpg",
+        "/Reception-desk-2.jpg"
       ]
     },
     {
@@ -32,39 +40,33 @@ const Gallery = () => {
       color: "from-green-400 to-emerald-500",
       bgColor: "from-green-50 to-emerald-50",
       images: [
-        "/Pouponniere-classe.jpg",
-        "/Pouponniere-classe1.jpg",
-        "/Pouponniere-classe2.jpg",
-        "/Pouponniere-classe3.jpg",
-        "/Trotinneurs-classe.jpg",
-        "/Trotinneurs-classe2.jpg",
-        "/Trotinneurs-classe3.jpg",
-        "/Trotinneurs-classe4.jpg",
-        "/Trotinneurs-classe5.jpg",
-        "/Trotinneurs-classe6.jpg",
-        "/Trotinneurs-classe7.jpg",
-        "/Trotinneurs-classe8.jpg",
-        "/Bambins-classe.jpg",
-        "/Bambins-classe2.jpg",
-        "/Bambins-classe3.jpg",
-        "/Bambins-classe4.jpg",
-        "/Bambins-classe6.jpg",
-        "/Sale-de-prescolaire.jpg",
-        "/Sale-de-prescolaire1.jpg",
-        "/Sale-de-prescolaire2.jpg",
-        "/Sale-de-prescolaire3.jpg"
-      ]
-    },
-    {
-      id: "outdoor",
-      title: t('gallery.categories.outdoor.title'),
-      subtitle: t('gallery.categories.outdoor.subtitle'),
-      icon: <FaTree className="text-white" />,
-      color: "from-orange-400 to-red-500",
-      bgColor: "from-orange-50 to-red-50",
-      images: [
-        "/Cour.jpg",
-        "/cour2.jpg"
+        "/Classe-juliettelea-1.jpg",
+        "/Classe-juliettelea-2.jpg",
+        "/Classe-juliettelea-3.jpg",
+        "/Classe-juliettelea-4.jpg",
+        "/Classe-juliettelea-5.jpg",
+        "/Classe-juliettelea-6.jpg",
+        "/Classe-juliettelea-7.jpg",
+        "/Classe-juliettelea-8.jpg",
+        "/Classe-juliettelea-9.jpg",
+        "/Classe-juliettelea-10.jpg",
+        "/Classe-juliettelea-11.jpg",
+        "/Classe-juliettelea-12.jpg",
+        "/Classe-juliettelea-13.jpg",
+        "/Classe-juliettelea-14.jpg",
+        "/Classe-juliettelea-15.jpg",
+        "/Classe-juliettelea-16.jpg",
+        "/Classe-juliettelea-17.jpg",
+        "/Classe-juliettelea-18.jpg",
+        "/Classe-juliettelea-19.jpg",
+        "/Classe-juliettelea-20.jpg",
+        "/Classe-juliettelea-21.jpg",
+        "/Classe-juliettelea-22.jpg",
+        "/Classe-juliettelea-23.jpg",
+        "/Classe-juliettelea-24.jpg",
+        "/Classe-juliettelea-25.jpg",
+        "/Classe-juliettelea-26.jpg",
+        "/Classe-juliettelea-27.jpg"
       ]
     },
     {
@@ -75,8 +77,28 @@ const Gallery = () => {
       color: "from-purple-400 to-violet-500",
       bgColor: "from-purple-50 to-violet-50",
       images: [
-        "/Casier-des-enfants.jpg",
-        "/Casier-prescolaire.jpg"
+        "/Couloir1.jpg",
+        "/Couloir2.jpg",
+        "/Couloir3.jpg",
+        "/Couloir4.jpg",
+        "/Couloir5.jpg",
+        "/Couloir6.jpg",
+        "/Couloir7.jpg",
+        "/Couloir8.jpg",
+        "/Couloir9.jpg",
+        "/Couloir10.jpg",
+        "/Couloir11.jpg",
+        "/Couloir-cubbies-1.jpg",
+        "/Couloir-cubbies-2.jpg",
+        "/Couloir-cubbies-3.jpg",
+        "/Couloir-cubbies-4.jpg",
+        "/Bureau-admin-1.jpg",
+        "/Bureau-admin-2.jpg",
+        "/Toilette-adultes.jpg",
+        "/Toilette-enfants.jpg",
+        "/Toilette-enfants-2.jpg",
+        "/Toilette-enfants-3.jpg",
+        "/Buanderie.jpg"
       ]
     },
     {
@@ -87,8 +109,22 @@ const Gallery = () => {
       color: "from-yellow-400 to-amber-500",
       bgColor: "from-yellow-50 to-amber-50",
       images: [
-        "/chambre-de-bebe.jpg",
-        "/Cuisine-pouponniere.jpg"
+        "/Chambre-bebe-1.jpg",
+        "/Chambre-bebe-2.jpg",
+        "/Chambre-bebe-3.jpg",
+        "/Chambre-bebe-4.jpg",
+        "/Chambre-bebe-5.jpg",
+        "/Cuisine-multipurpose.jpg",
+        "/Cuisine-staff.jpg",
+        "/Cuisine-staff-2.jpg",
+        "/Cuisine-staff-3.jpg",
+        "/Cuisine-principale-1.jpg",
+        "/Cuisine-principale-2.jpg",
+        "/Cuisine-principale-3.jpg",
+        "/Pouponniere-activite-1.jpg",
+        "/Pouponniere-activite-2.jpg",
+        "/Pouponniere-activite-3.jpg",
+        "/Pouponniere-activite-4.jpg"
       ]
     }
   ];

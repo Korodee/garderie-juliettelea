@@ -17,7 +17,7 @@ const LanguageContext = createContext<LanguageContextType | undefined>(
 const translations = {
   fr: {
     // Hero Section
-    "hero.title": "Garderie Aimée",
+    "hero.title": "Garderie JulietteLea",
     "hero.subtitle": "Une garderie de qualité",
     "hero.description":
       "Depuis 1987, nous offrons un environnement sécuritaire, stimulant et bienveillant où chaque enfant peut grandir, apprendre et s'épanouir à son propre rythme.",
@@ -115,7 +115,7 @@ const translations = {
     // Timeline
     "timeline.1987.title": "Fondation",
     "timeline.1987.description":
-      "Création de Garderie Aimée avec une vision bilingue et une approche centrée sur le développement global de l'enfant",
+      "Création de Garderie JulietteLea avec une vision bilingue et une approche centrée sur le développement global de l'enfant",
     "timeline.1995.title": "Reconnaissance MFA",
     "timeline.1995.description":
       "Obtention de la reconnaissance officielle du Ministère de la famille avec qualité éducative reconnue",
@@ -246,7 +246,7 @@ const translations = {
     "testimonials.title": "Témoignages des parents",
     "testimonials.subtitle": "Recommandé par les familles",
     "testimonials.description":
-      "Découvrez ce que les parents disent de leur expérience à la garderie Aimée.",
+      "Découvrez ce que les parents disent de leur expérience à la garderie JulietteLea.",
     "testimonials.parent_of": "Parent de",
 
     // Contact
@@ -258,13 +258,13 @@ const translations = {
     "contact.hours": "Heures d'ouverture",
     "contact.hours.value": "Lundi au vendredi, 7h à 18h",
     "contact.address_title": "Notre Adresse",
-    "contact.street": "1730, rue Poirier",
-    "contact.city": "Saint-Laurent (Québec) H4L 1J3",
-    "contact.map_title": "Carte de la Garderie Aimée",
+    "contact.street": "6230 boulevard Decarie",
+    "contact.city": "Montréal (Québec)",
+    "contact.map_title": "Carte de la Garderie JulietteLea",
     "contact.online_registration": "Inscription en ligne",
 
     // Footer
-    "footer.brand": "Garderie Aimée",
+    "footer.brand": "Garderie JulietteLea",
     "footer.tagline": "Une garderie de qualité",
     "footer.description":
       "Depuis 1987, nous offrons un environnement sécuritaire et stimulant pour le développement harmonieux de votre enfant.",
@@ -380,7 +380,7 @@ const translations = {
   },
   en: {
     // Hero Section
-    "hero.title": "Aimée Daycare",
+    "hero.title": "JulietteLea Daycare",
     "hero.subtitle": "A Quality Daycare",
     "hero.description":
       "Since 1987, we have offered a safe, stimulating, and nurturing environment where each child can grow, learn, and thrive at their own pace.",
@@ -477,7 +477,7 @@ const translations = {
     // Timeline
     "timeline.1987.title": "Foundation",
     "timeline.1987.description":
-      "Creation of Aimée Daycare with a bilingual vision and an approach centered on the holistic development of the child",
+      "Creation of JulietteLea Daycare with a bilingual vision and an approach centered on the holistic development of the child",
     "timeline.1995.title": "MFA Recognition",
     "timeline.1995.description":
       "Official recognition of the Ministry of Family with recognized educational quality",
@@ -601,7 +601,7 @@ const translations = {
     "testimonials.title": "Parent Testimonials",
     "testimonials.subtitle": "Recommended by families",
     "testimonials.description":
-      "Discover what parents say about their experience at Aimée Daycare.",
+      "Discover what parents say about their experience at JulietteLea Daycare.",
     "testimonials.parent_of": "Parent of",
 
     // Contact
@@ -613,13 +613,13 @@ const translations = {
     "contact.hours": "Opening Hours",
     "contact.hours.value": "Monday to Friday, 7am to 6pm",
     "contact.address_title": "Our Address",
-    "contact.street": "1730, rue Poirier",
-    "contact.city": "Saint-Laurent (Québec) H4L 1J3",
-    "contact.map_title": "Map of Aimée Daycare",
+    "contact.street": "6230 boulevard Decarie",
+    "contact.city": "Montreal, QC",
+    "contact.map_title": "Map of JulietteLea Daycare",
     "contact.online_registration": "Online Registration",
 
     // Footer
-    "footer.brand": "Aimée Daycare",
+    "footer.brand": "JulietteLea Daycare",
     "footer.tagline": "A Quality Daycare",
     "footer.description":
       "Since 1987, we have offered a safe, stimulating, and nurturing environment where each child can grow, learn, and thrive at their own pace.",

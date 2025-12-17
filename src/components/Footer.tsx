@@ -28,7 +28,7 @@ const Footer = () => {
             <div className="flex items-center gap-3">
               <Image
                 src="/logo.png"
-                alt="Garderie Aimée Logo"
+                alt="Garderie JulietteLea Logo"
                 width={80}
                 height={80}
                 className="w-13 h-13 object-contain drop-shadow-md"
@@ -55,7 +55,7 @@ const Footer = () => {
             </h3>
             <div className="flex flex-col md:flex-row flex-wrap gap-4">
               <a
-                href="tel:5147474114"
+                href="tel:5148377070"
                 className="flex-1 min-w-[140px] bg-white rounded-xl shadow p-4 flex items-center gap-3 hover:shadow-md transition group"
               >
                 <span className="w-10 h-10 flex items-center justify-center rounded-lg bg-blue-50 group-hover:bg-blue-100 transition">
@@ -65,11 +65,11 @@ const Footer = () => {
                   <div className="font-semibold text-slate-900">
                     {t("footer.contact.phone")}
                   </div>
-                  <div className="text-sm text-slate-500">514 747-4114</div>
+                  <div className="text-sm text-slate-500">514 837-7070</div>
                 </div>
               </a>
               <a
-                href="mailto:garderieaimee@hotmail.com"
+                href="mailto:garderiejuliettelea@gmail.com"
                 className="flex-1 min-w-[140px] bg-white rounded-xl shadow p-4 flex items-center gap-3 hover:shadow-md transition group"
               >
                 <span className="w-10 h-10 flex items-center justify-center rounded-lg bg-blue-50 group-hover:bg-blue-100 transition">
@@ -80,7 +80,7 @@ const Footer = () => {
                     {t("footer.contact.email")}
                   </div>
                   <div className="text-sm text-slate-500 truncate">
-                    garderieaimee@hotmail.com
+                    garderiejuliettelea@gmail.com
                   </div>
                 </div>
               </a>
@@ -94,9 +94,9 @@ const Footer = () => {
                   {t("footer.contact.address")}
                 </div>
                 <div className="text-sm text-slate-500 leading-tight">
-                  1730, rue Poirier
+                  6230 boulevard Decarie
                   <br />
-                  Saint-Laurent (Québec) H4L 1J3
+                  Montréal (Québec)
                 </div>
               </div>
             </div>

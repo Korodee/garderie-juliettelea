@@ -26,12 +26,12 @@ const Team = () => {
         {
           name: "Mayara",
           role: t("team.roles.directrice"),
-          image: "/Mayara-Directrice.jpg",
+          image: "/Equipe-staff-board.jpg",
         },
         {
           name: "Natasha",
           role: t("team.roles.directrice"),
-          image: "/Natasha-Directrice.jpg",
+          image: "/Equipe-staff-board.jpg",
         },
       ],
     },
@@ -45,17 +45,17 @@ const Team = () => {
         {
           name: "Simranjit",
           role: t("team.roles.pouponniere.0_8"),
-          image: "/simranjit.jpg",
+          image: "/Classe-juliettelea-21.jpg",
         },
         {
           name: "Kristin",
           role: t("team.roles.pouponniere.9_12"),
-          image: "/Kristin-Pouponniére.jpg",
+          image: "/Classe-juliettelea-22.jpg",
         },
         {
           name: "Carmen",
           role: t("team.roles.pouponniere.12_18"),
-          image: "/Carmen-Pouponniere.jpg",
+          image: "/Classe-juliettelea-23.jpg",
         },
       ],
     },
@@ -69,17 +69,17 @@ const Team = () => {
         {
           name: "Daphney",
           role: t("team.roles.trottineurs.18_24"),
-          image: "/Daphney-Trotinneurs.jpg",
+          image: "/Classe-juliettelea-24.jpg",
         },
         {
           name: "Souad",
           role: t("team.roles.trottineurs.24_30"),
-          image: "/souad.jpg",
+          image: "/Classe-juliettelea-25.jpg",
         },
         {
           name: "Li",
           role: t("team.roles.trottineurs.30_36"),
-          image: "/Li-Trotinneurs.jpg",
+          image: "/Classe-juliettelea-26.jpg",
         },
       ],
     },
@@ -93,17 +93,17 @@ const Team = () => {
         {
           name: "Fiona",
           role: t("team.roles.educatrice"),
-          image: "/Fiona-Bambins.jpg",
+          image: "/Classe-juliettelea-15.jpg",
         },
         {
           name: "Stéphanie",
           role: t("team.roles.educatrice"),
-          image: "/Stephanie-Bambins.jpg",
+          image: "/Classe-juliettelea-10.jpg",
         },
         {
           name: "Drissia",
           role: t("team.roles.educatrice"),
-          image: "/Drissia-Bambins.jpg",
+          image: "/Classe-juliettelea-8.jpg",
         },
       ],
     },
@@ -117,12 +117,12 @@ const Team = () => {
         {
           name: "Popi",
           role: t("team.roles.educatrice"),
-          image: "/Popi-Prek.jpg",
+          image: "/Classe-juliettelea-5.jpg",
         },
         {
           name: "Bassma",
           role: t("team.roles.educatrice"),
-          image: "/Bassma-Prek.jpg",
+          image: "/Classe-juliettelea-4.jpg",
         },
       ],
     },
@@ -135,17 +135,17 @@ const Team = () => {
         {
           name: "Silvie",
           role: t("team.roles.cuisiniere"),
-          image: "/Silvie-Cuisinniere.jpg",
+          image: "/Cuisine-principale-2.jpg",
         },
         {
           name: "Khadidja",
           role: t("team.roles.remplacante"),
-          image: "/Khadidja-Éducatrice remplacante.jpg",
+          image: "/Classe-juliettelea-9.jpg",
         },
         {
           name: "Amani",
           role: t("team.roles.remplacante"),
-          image: "/Amani.jpg",
+          image: "/Classe-juliettelea-6.jpg",
         },
       ],
     },

@@ -56,7 +56,7 @@ export default function Navbar({ open, setOpen, active }: NavbarProps) {
         <Link href="/" className="flex items-center gap-2 group">
           <Image
             src="/logo.png"
-            alt="Garderie Aimée Logo"
+            alt="Garderie JulietteLea Logo"
             width={80}
             height={80}
             className="w-12 h-12 object-contain drop-shadow-md"

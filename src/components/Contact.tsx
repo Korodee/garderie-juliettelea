@@ -36,7 +36,7 @@ const Contact = () => {
           </div>
           <div className="rounded-2xl h-64 w-full overflow-hidden mt-4 shadow-lg border-2 border-white/60">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.198847456317!2d-73.7174!3d45.5017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a541c64b70d%3A0x654e3138211fefef!2s1730%20Rue%20Poirier%2C%20Saint-Laurent%2C%20QC%20H4L%201J3!5e0!3m2!1sen!2sca!4v1703123456789!5m2!1sen!2sca"
+              src="https://www.google.com/maps?q=6230+Boulevard+Decarie,+Montreal,+QC&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
