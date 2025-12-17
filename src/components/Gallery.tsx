@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaCamera, FaBuilding, FaChild, FaTree, FaDoorOpen, FaStar, FaTimes } from "react-icons/fa";
+import { FaCamera, FaBuilding, FaChild, FaDoorOpen, FaStar, FaTimes } from "react-icons/fa";
 import Image from "next/image";
 import { useState } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
