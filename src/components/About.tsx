@@ -299,11 +299,11 @@ const About = () => {
           viewport={{ once: true }}
           className="grid lg:grid-cols-2 gap-12 mb-24"
         >
-          <div className="bg-gradient-to-br from-blue-600 to-purple-600 rounded-3xl p-6 md:p-12 text-white relative overflow-hidden">
+          <div className="bg-gradient-to-br from-teal-600 to-emerald-600 rounded-3xl p-6 md:p-12 text-white relative overflow-hidden">
             <div className="absolute top-0 right-0 w-32 h-32 bg-white opacity-10 rounded-full -translate-y-16 translate-x-16"></div>
             <div className="relative z-10">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 bg-gradient-to-r from-red-400 to-pink-400 bg-opacity-20 rounded-xl flex items-center justify-center">
+                <div className="w-12 h-12 bg-gradient-to-r from-amber-400 to-orange-400 bg-opacity-20 rounded-xl flex items-center justify-center">
                   <FaHeart className="text-2xl" />
                 </div>
                 <h3 className="text-3xl font-bold">{t("about.mission")}</h3>
@@ -314,7 +314,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-green-600 to-teal-600 rounded-3xl p-6 md:p-12 text-white relative overflow-hidden">
+          <div className="bg-gradient-to-br from-sky-600 to-teal-600 rounded-3xl p-6 md:p-12 text-white relative overflow-hidden">
             <div className="absolute bottom-0 left-0 w-32 h-32 bg-white opacity-10 rounded-full translate-y-16 -translate-x-16"></div>
             <div className="relative z-10">
               <div className="flex items-center gap-3 mb-6">
@@ -339,7 +339,7 @@ const About = () => {
           className="mb-24"
         >
           <div className="text-center mb-16">
-            <h3 className="text-4xl font-bold mb-4 bg-gradient-to-r from-[#36B6DF] via-[#FFD43B] via-40% to-[#F06292] text-transparent bg-clip-text drop-shadow">
+            <h3 className="text-4xl font-bold mb-4 bg-gradient-to-r from-teal-500 via-emerald-300 to-amber-400 text-transparent bg-clip-text drop-shadow">
               {t("about.values")}
             </h3>
             <p className="text-xl text-slate-600 max-w-2xl mx-auto">
@@ -384,12 +384,12 @@ const About = () => {
           className="mb-24 relative"
         >
           {/* Playful floating shapes */}
-          <div className="absolute -top-16 left-1/4 w-40 h-40 bg-pink-100 rounded-full filter blur-2xl opacity-40 z-0 animate-blob"></div>
+          <div className="absolute -top-16 left-1/4 w-40 h-40 bg-teal-100 rounded-full filter blur-2xl opacity-40 z-0 animate-blob"></div>
           <div className="absolute top-1/2 right-1/4 w-32 h-32 bg-blue-100 rounded-full filter blur-2xl opacity-40 z-0 animate-blob animation-delay-2000"></div>
           <div className="absolute bottom-0 left-1/3 w-28 h-28 bg-yellow-100 rounded-full filter blur-2xl opacity-40 z-0 animate-blob animation-delay-4000"></div>
 
           <div className="text-center mb-16 relative z-10">
-            <h3 className="text-4xl font-bold mb-4 bg-gradient-to-r from-[#36B6DF] via-[#FFD43B] via-40% to-[#F06292] text-transparent bg-clip-text drop-shadow">
+            <h3 className="text-4xl font-bold mb-4 bg-gradient-to-r from-teal-500 via-emerald-300 to-amber-400 text-transparent bg-clip-text drop-shadow">
               {t("about.journey")}
             </h3>
             <p className="text-xl text-slate-600 max-w-2xl mx-auto">
@@ -399,23 +399,23 @@ const About = () => {
 
           <div className="relative z-10">
             {/* Rainbow timeline line */}
-            <div className="hidden sm:block absolute left-1/2 transform -translate-x-1/2 w-2 h-full bg-gradient-to-b from-pink-300 via-yellow-200 to-blue-300"></div>
-            <div className="block sm:hidden absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-pink-300 via-yellow-200 to-blue-300"></div>
+            <div className="hidden sm:block absolute left-1/2 transform -translate-x-1/2 w-2 h-full bg-gradient-to-b from-teal-300 via-emerald-200 to-amber-200"></div>
+            <div className="block sm:hidden absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-teal-300 via-emerald-200 to-amber-200"></div>
 
             <div className="space-y-16">
               {timeline.map((item, index) => {
                 // Playful pastel backgrounds and icons for each milestone
                 const pastelBg = [
-                  "bg-pink-50",
-                  "bg-blue-50",
-                  "bg-yellow-50",
-                  "bg-green-50",
+                  "bg-teal-50",
+                  "bg-emerald-50",
+                  "bg-amber-50",
+                  "bg-sky-50",
                 ];
                 const accentBar = [
-                  "bg-pink-300",
-                  "bg-blue-300",
-                  "bg-yellow-300",
-                  "bg-green-300",
+                  "bg-teal-300",
+                  "bg-emerald-300",
+                  "bg-amber-300",
+                  "bg-sky-300",
                 ];
                 const icons = [
                   "🏫", // Fondation
@@ -423,10 +423,10 @@ const About = () => {
                   "🧸", // Expansion
                   "🎨", // Rénovation
                 ];
+                const icon = icons[index % icons.length];
                 const bg = pastelBg[index % pastelBg.length];
                 const bar = accentBar[index % accentBar.length];
-                const icon = icons[index % icons.length];
-                const dotColor = `bg-gradient-to-br from-pink-300 via-yellow-200 to-blue-300`;
+                const dotColor = `bg-gradient-to-br from-teal-300 via-emerald-200 to-amber-200`;
                 return (
                   <motion.div
                     key={index}
@@ -455,7 +455,7 @@ const About = () => {
                         {/* Icon and year stacked and centered */}
                         <div className="flex flex-col items-center justify-center mb-3">
                           <span className="text-3xl mb-1">{icon}</span>
-                          <span className="text-3xl font-extrabold bg-gradient-to-r from-pink-400 via-yellow-400 to-blue-400 bg-clip-text text-transparent drop-shadow-sm">
+                          <span className="text-3xl font-extrabold bg-gradient-to-r from-teal-500 via-emerald-300 to-amber-400 bg-clip-text text-transparent drop-shadow-sm">
                             {item.year}
                           </span>
                         </div>
@@ -493,13 +493,13 @@ const About = () => {
           viewport={{ once: true }}
           className="mb-24"
         >
-          <div className="bg-gradient-to-br from-indigo-800 to-purple-800 rounded-3xl p-4 py-8 md:py-12 md:p-12 text-white relative overflow-hidden">
+          <div className="bg-gradient-to-br from-slate-900 to-teal-900 rounded-3xl p-4 py-8 md:py-12 md:p-12 text-white relative overflow-hidden">
             <div className="absolute top-0 right-0 w-64 h-64 bg-white opacity-10 rounded-full -translate-y-32 translate-x-32"></div>
-            <div className="absolute bottom-0 left-0 w-48 h-48 bg-pink-500 opacity-10 rounded-full translate-y-24 -translate-x-24"></div>
+            <div className="absolute bottom-0 left-0 w-48 h-48 bg-emerald-500 opacity-10 rounded-full translate-y-24 -translate-x-24"></div>
 
             <div className="relative z-10 text-center">
               <div className="flex flex-col items-center mb-8">
-                <div className="w-16 h-16 bg-gradient-to-r from-indigo-400 to-purple-400 bg-opacity-20 rounded-2xl flex items-center justify-center mb-4 mx-auto">
+                <div className="w-16 h-16 bg-gradient-to-r from-teal-400 to-emerald-400 bg-opacity-20 rounded-2xl flex items-center justify-center mb-4 mx-auto">
                   <FaShieldAlt className="text-3xl" />
                 </div>
                 <h3 className="text-4xl font-bold">

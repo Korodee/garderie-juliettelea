@@ -37,7 +37,7 @@ const Admission = () => {
   return (
     <section
       id="admission"
-      className="py-32 px-4 bg-gradient-to-br from-orange-50 via-pink-50 to-yellow-50 relative overflow-hidden"
+      className="py-32 px-4 bg-gradient-to-br from-emerald-50 via-teal-50 to-amber-50 relative overflow-hidden"
     >
       {/* Hero area with animated envelope/checklist */}
       <div className="relative z-10 flex flex-col items-center mb-20">
@@ -50,11 +50,11 @@ const Admission = () => {
             repeatType: "reverse",
             ease: "easeInOut",
           }}
-          className="w-28 h-28 rounded-2xl bg-gradient-to-br from-orange-400 to-pink-400 flex items-center justify-center mb-6 shadow-2xl"
+          className="w-28 h-28 rounded-2xl bg-gradient-to-br from-teal-500 to-emerald-400 flex items-center justify-center mb-6 shadow-2xl"
         >
           <FaEnvelopeOpenText className="text-white text-5xl drop-shadow" />
         </motion.div>
-        <h2 className="text-5xl md:text-6xl font-extrabold mb-4 bg-gradient-to-r from-orange-600 via-pink-500 to-yellow-500 bg-clip-text text-transparent drop-shadow-lg text-center">
+        <h2 className="text-5xl md:text-6xl font-extrabold mb-4 bg-gradient-to-r from-teal-600 via-emerald-500 to-amber-500 bg-clip-text text-transparent drop-shadow-lg text-center">
           {t("admission.title")}
         </h2>
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-orange-100 text-orange-900 font-semibold text-lg shadow mb-4">
@@ -68,7 +68,7 @@ const Admission = () => {
           href="https://www.laplace0-5.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-6 bg-gradient-to-r from-orange-500 to-pink-500 text-white px-8 py-3 rounded-full font-bold shadow-lg hover:scale-105 transition-transform"
+          className="mt-6 bg-gradient-to-r from-teal-500 to-emerald-500 text-white px-8 py-3 rounded-full font-bold shadow-lg hover:scale-105 transition-transform"
         >
           {t("admission.cta_button")}
         </a>
@@ -106,13 +106,13 @@ const Admission = () => {
       {/* Vertical Stepper/Timeline for Process */}
       <div className="relative z-10 max-w-3xl mx-auto mb-24">
         <div className="flex flex-col items-center">
-          <h3 className="text-2xl font-bold mb-8 text-pink-700 flex items-center gap-2">
-            <FaEnvelopeOpenText className="text-pink-400" />{" "}
+          <h3 className="text-2xl font-bold mb-8 text-teal-700 flex items-center gap-2">
+            <FaEnvelopeOpenText className="text-teal-400" />{" "}
             {t("admission.process_title")}
           </h3>
           <div className="relative w-full">
             {/* Vertical line */}
-            <div className="absolute left-6 top-0 bottom-0 w-1 bg-gradient-to-b from-orange-200 via-pink-200 to-yellow-200 rounded-full"></div>
+            <div className="absolute left-6 top-0 bottom-0 w-1 bg-gradient-to-b from-emerald-200 via-teal-200 to-amber-200 rounded-full"></div>
             <ul className="space-y-12 pl-16">
               {process.map((step, i) => (
                 <motion.li
@@ -123,7 +123,7 @@ const Admission = () => {
                   viewport={{ once: true }}
                   className="relative"
                 >
-                  <div className="absolute -left-10 top-0 w-12 h-12 rounded-full bg-gradient-to-br from-orange-400 to-pink-400 flex items-center justify-center text-white text-2xl font-bold shadow-lg border-4 border-white">
+                  <div className="absolute -left-10 top-0 w-12 h-12 rounded-full bg-gradient-to-br from-teal-500 to-emerald-400 flex items-center justify-center text-white text-2xl font-bold shadow-lg border-4 border-white">
                     {i + 1}
                   </div>
                   <div className="bg-white/90 rounded-2xl p-6 shadow border border-orange-100">
@@ -143,9 +143,9 @@ const Admission = () => {
 
       {/* Contribution Calculator Card */}
       <div className="relative z-10 max-w-xl mx-auto mb-24">
-        <div className="bg-gradient-to-br from-orange-100 to-pink-100 rounded-3xl p-4 py-8 md:py-10 md:p-10 shadow-2xl border-2 border-white/60 flex flex-col items-center">
-          <h3 className="text-2xl font-bold mb-4 text-orange-700 flex items-center gap-2">
-            <FaDollarSign className="text-orange-400" />{" "}
+        <div className="bg-gradient-to-br from-emerald-50 to-teal-100 rounded-3xl p-4 py-8 md:py-10 md:p-10 shadow-2xl border-2 border-white/60 flex flex-col items-center">
+          <h3 className="text-2xl font-bold mb-4 text-teal-800 flex items-center gap-2">
+            <FaDollarSign className="text-teal-500" />{" "}
             {t("admission.calculator_title")}
           </h3>
           <p className="text-lg text-slate-700 mb-4 text-center">
@@ -158,7 +158,7 @@ const Admission = () => {
             href="https://www.laplace0-5.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-2 bg-gradient-to-r from-orange-500 to-pink-500 text-white px-8 py-3 rounded-full font-bold shadow-lg hover:scale-105 transition-transform"
+            className="mt-2 bg-gradient-to-r from-teal-500 to-emerald-500 text-white px-8 py-3 rounded-full font-bold shadow-lg hover:scale-105 transition-transform"
           >
             {t("admission.calculator_button")}
           </a>
@@ -167,7 +167,7 @@ const Admission = () => {
 
       {/* Contact and Info Cards */}
       <div className="relative z-10 max-w-4xl mx-auto grid md:grid-cols-2 gap-12 mb-8">
-        <div className="bg-gradient-to-r from-orange-600 to-pink-500 rounded-3xl p-8 text-white shadow-2xl flex flex-col justify-between">
+        <div className="bg-gradient-to-r from-amber-500 to-orange-500 rounded-3xl p-8 text-white shadow-2xl flex flex-col justify-between">
           <div>
             <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
               <FaInfoCircle className="text-white/80" />{" "}
@@ -201,7 +201,7 @@ const Admission = () => {
             </ul>
           </div>
         </div>
-        <div className="bg-gradient-to-r from-green-500 to-emerald-600 rounded-3xl p-8 text-white shadow-2xl flex flex-col justify-between">
+        <div className="bg-gradient-to-r from-teal-600 to-emerald-600 rounded-3xl p-8 text-white shadow-2xl flex flex-col justify-between">
           <div>
             <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
               <FaCheckCircle className="text-white/80" />{" "}
@@ -231,7 +231,7 @@ const Admission = () => {
                 </div>
               </div>
               <div className="flex items-center">
-                <FaHeart className="text-xl mr-4 text-pink-200" />
+                <FaHeart className="text-xl mr-4 text-emerald-200" />
                 <div>
                   <div className="font-semibold">
                     {t("admission.advantages.approach.title")}

@@ -494,10 +494,10 @@ export default function Hero() {
             {t("hero.title")}
             <br />
             <span
-              className="font-bold bg-gradient-to-r from-[#36B6DF] via-[#FFD43B] via-40% to-red-600 text-transparent bg-clip-text drop-shadow-[0_2px_8px_rgba(0,0,0,0.18)]"
+              className="font-bold bg-gradient-to-r from-teal-300 via-emerald-200 via-40% to-amber-300 text-transparent bg-clip-text drop-shadow-[0_2px_8px_rgba(0,0,0,0.18)]"
               style={{
                 backgroundImage:
-                  "linear-gradient(100deg, #36B6DF 0%, #FFD43B 40%, #dc2626 100%)",
+                  "linear-gradient(110deg, #2dd4bf 0%, #a7f3d0 40%, #fbbf24 100%)",
               }}
             >
               {t("hero.subtitle")}
@@ -535,7 +535,7 @@ export default function Hero() {
           >
             <a
               href="#admission"
-              className="inline-block font-semibold px-8 py-3 rounded-full shadow text-white text-lg bg-gradient-to-r from-orange-700 via-[#7B3FA0] via-60% to-[#F06292] hover:brightness-110 hover:scale-105 transition-all duration-200 w-fit"
+              className="inline-block font-semibold px-8 py-3 rounded-full shadow text-white text-lg bg-gradient-to-r from-teal-600 via-emerald-500 to-amber-500 hover:brightness-110 hover:scale-105 transition-all duration-200 w-fit"
             >
               {t("hero.cta")}
             </a>

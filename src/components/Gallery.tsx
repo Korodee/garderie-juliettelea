@@ -37,8 +37,8 @@ const Gallery = () => {
       title: t('gallery.categories.classrooms.title'),
       subtitle: t('gallery.categories.classrooms.subtitle'),
       icon: <FaBuilding className="text-white" />,
-      color: "from-green-400 to-emerald-500",
-      bgColor: "from-green-50 to-emerald-50",
+      color: "from-teal-500 to-emerald-500",
+      bgColor: "from-teal-50 to-emerald-50",
       images: [
         "/Classe-juliettelea-1.jpg",
         "/Classe-juliettelea-2.jpg",
@@ -74,8 +74,8 @@ const Gallery = () => {
       title: t('gallery.categories.facilities.title'),
       subtitle: t('gallery.categories.facilities.subtitle'),
       icon: <FaChild className="text-white" />,
-      color: "from-purple-400 to-violet-500",
-      bgColor: "from-purple-50 to-violet-50",
+      color: "from-amber-500 to-orange-500",
+      bgColor: "from-amber-50 to-orange-50",
       images: [
         "/Couloir1.jpg",
         "/Couloir2.jpg",
@@ -134,7 +134,7 @@ const Gallery = () => {
     : galleryCategories.filter(cat => cat.id === selectedCategory);
 
   return (
-    <section id="galerie" className="relative py-20 bg-gradient-to-br from-slate-50 to-purple-50 overflow-hidden">
+    <section id="galerie" className="relative py-20 bg-gradient-to-br from-slate-50 via-emerald-50 to-amber-50 overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
@@ -152,7 +152,7 @@ const Gallery = () => {
           viewport={{ once: true }}
           className="mb-4"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full text-white text-sm font-medium shadow-lg">
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-teal-500 to-emerald-400 rounded-full text-white text-sm font-medium shadow-lg">
             <FaCamera className="text-xs" />
             {t('gallery.header.badge')}
           </div>
@@ -191,7 +191,7 @@ const Gallery = () => {
             onClick={() => setSelectedCategory("all")}
             className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
               selectedCategory === "all"
-                ? "bg-gradient-to-r from-purple-400 to-pink-400 text-white shadow-lg"
+                ? "bg-gradient-to-r from-teal-500 to-emerald-400 text-white shadow-lg"
                 : "bg-white text-gray-600 hover:bg-gray-50 shadow-md"
             }`}
           >
@@ -203,7 +203,7 @@ const Gallery = () => {
               onClick={() => setSelectedCategory(category.id)}
               className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
                 selectedCategory === category.id
-                  ? "bg-gradient-to-r from-purple-400 to-pink-400 text-white shadow-lg"
+                  ? "bg-gradient-to-r from-teal-500 to-emerald-400 text-white shadow-lg"
                   : "bg-white text-gray-600 hover:bg-gray-50 shadow-md"
               }`}
             >
@@ -314,7 +314,7 @@ const Gallery = () => {
         viewport={{ once: true }}
         className="relative z-10 text-center mt-12"
       >
-        <div className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full text-white font-medium shadow-lg">
+        <div className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-teal-500 to-emerald-400 rounded-full text-white font-medium shadow-lg">
           <FaCamera className="text-sm" />
           <span className="text-sm">{t('gallery.bottom_accent')}</span>
         </div>

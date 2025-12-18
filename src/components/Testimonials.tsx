@@ -132,26 +132,26 @@ export default function Testimonials() {
   return (
     <section
       id="temoignages"
-      className="py-22 bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 relative overflow-hidden"
+      className="py-22 bg-gradient-to-br from-emerald-50 via-sky-50 to-amber-50 relative overflow-hidden"
     >
       {/* Playful illustrated background */}
       <div className="absolute inset-0 pointer-events-none select-none z-0">
-        <div className="absolute top-0 left-1/4 w-80 h-80 bg-pink-200 rounded-full opacity-30 blur-2xl animate-blob"></div>
-        <div className="absolute top-1/2 right-1/4 w-64 h-64 bg-purple-200 rounded-full opacity-30 blur-2xl animate-blob animation-delay-2000"></div>
-        <div className="absolute bottom-0 left-1/3 w-56 h-56 bg-blue-200 rounded-full opacity-30 blur-2xl animate-blob animation-delay-4000"></div>
-        <div className="absolute top-1/3 left-10 w-32 h-32 bg-yellow-200 rounded-full opacity-20 blur-2xl animate-blob animation-delay-1000"></div>
+        <div className="absolute top-0 left-1/4 w-80 h-80 bg-teal-200 rounded-full opacity-30 blur-2xl animate-blob"></div>
+        <div className="absolute top-1/2 right-1/4 w-64 h-64 bg-emerald-200 rounded-full opacity-30 blur-2xl animate-blob animation-delay-2000"></div>
+        <div className="absolute bottom-0 left-1/3 w-56 h-56 bg-amber-200 rounded-full opacity-30 blur-2xl animate-blob animation-delay-4000"></div>
+        <div className="absolute top-1/3 left-10 w-32 h-32 bg-sky-200 rounded-full opacity-20 blur-2xl animate-blob animation-delay-1000"></div>
       </div>
 
       {/* Hero area */}
       <div className="relative z-10 flex flex-col items-center mb-16 px-4 mx-auto max-w-6xl">
-        <div className="w-16 h-16 rounded-full bg-gradient-to-br from-pink-400 to-purple-400 flex items-center justify-center mb-6 shadow-2xl">
+        <div className="w-16 h-16 rounded-full bg-gradient-to-br from-emerald-400 to-sky-400 flex items-center justify-center mb-6 shadow-2xl">
           <FaHeart className="text-white text-3xl drop-shadow" />
         </div>
-        <h2 className="text-2xl md:text-3xl font-extrabold mb-4 bg-gradient-to-r from-pink-600 via-purple-500 to-blue-500 bg-clip-text text-transparent drop-shadow-lg text-center">
+        <h2 className="text-2xl md:text-3xl font-extrabold mb-4 bg-gradient-to-r from-emerald-600 via-sky-500 to-amber-500 bg-clip-text text-transparent drop-shadow-lg text-center">
           {t("testimonials.title")}
         </h2>
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-pink-100 text-pink-900 font-semibold text-lg shadow mb-4">
-          <FaStar className="text-pink-400" />
+        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 text-emerald-900 font-semibold text-lg shadow mb-4">
+          <FaStar className="text-emerald-400" />
           {t("testimonials.subtitle")}
         </div>
         <p className="text-xl text-slate-700 max-w-2xl text-center mb-2">
@@ -194,7 +194,7 @@ export default function Testimonials() {
           {/* Navigation Arrows */}
           <button
             onClick={prevSlide}
-            className="absolute -left-10 top-1/2 -translate-y-1/2 z-20 w-10 h-10 bg-white/80 backdrop-blur-sm rounded-full shadow-lg hover:bg-white transition-all duration-200 hover:scale-110 items-center justify-center text-pink-600 hover:text-pink-700 hidden md:flex"
+            className="absolute -left-10 top-1/2 -translate-y-1/2 z-20 w-10 h-10 bg-white/80 backdrop-blur-sm rounded-full shadow-lg hover:bg-white transition-all duration-200 hover:scale-110 items-center justify-center text-teal-600 hover:text-teal-700 hidden md:flex"
             aria-label="Témoignage précédent"
           >
             <FaChevronLeft className="text-lg" />
@@ -202,7 +202,7 @@ export default function Testimonials() {
 
           <button
             onClick={nextSlide}
-            className="absolute -right-10 top-1/2 -translate-y-1/2 z-20 w-10 h-10 bg-white/80 backdrop-blur-sm rounded-full shadow-lg hover:bg-white transition-all duration-200 hover:scale-110 items-center justify-center text-pink-600 hover:text-pink-700 hidden md:flex"
+            className="absolute -right-10 top-1/2 -translate-y-1/2 z-20 w-10 h-10 bg-white/80 backdrop-blur-sm rounded-full shadow-lg hover:bg-white transition-all duration-200 hover:scale-110 items-center justify-center text-teal-600 hover:text-teal-700 hidden md:flex"
             aria-label="Témoignage suivant"
           >
             <FaChevronRight className="text-lg" />
@@ -221,7 +221,7 @@ export default function Testimonials() {
               >
                 <div className="text-center">
                   {/* Quote icon */}
-                  <div className="w-12 h-12 bg-gradient-to-r from-pink-400 to-purple-400 rounded-full flex items-center justify-center shadow-lg mx-auto mb-4">
+                  <div className="w-12 h-12 bg-gradient-to-r from-emerald-400 to-sky-400 rounded-full flex items-center justify-center shadow-lg mx-auto mb-4">
                     <FaQuoteLeft className="text-white text-lg" />
                   </div>
 
@@ -241,7 +241,7 @@ export default function Testimonials() {
 
                   {/* Highlight */}
                   <div className="mb-4">
-                    <span className="inline-block bg-gradient-to-r from-pink-100 to-purple-100 text-pink-800 px-3 py-1 rounded-full text-sm font-semibold">
+                    <span className="inline-block bg-gradient-to-r from-emerald-100 to-sky-100 text-emerald-800 px-3 py-1 rounded-full text-sm font-semibold">
                       {currentTestimonials[currentSlide].highlight}
                     </span>
                   </div>
@@ -267,11 +267,11 @@ export default function Testimonials() {
               <button
                 key={index}
                 onClick={() => goToSlide(index)}
-                className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                  index === currentSlide
-                    ? "bg-pink-500 scale-125"
-                    : "bg-pink-300 hover:bg-pink-400"
-                }`}
+                  className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                    index === currentSlide
+                      ? "bg-teal-500 scale-125"
+                      : "bg-teal-300 hover:bg-teal-400"
+                  }`}
                 aria-label={`Aller au témoignage ${index + 1}`}
               />
             ))}

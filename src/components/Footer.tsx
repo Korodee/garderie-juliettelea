@@ -26,14 +26,16 @@ const Footer = () => {
           {/* Branding */}
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-3">
-              <Image
-                src="/logo.png"
-                alt="Garderie JulietteLea Logo"
-                width={80}
-                height={80}
-                className="w-13 h-13 object-contain drop-shadow-md"
-                priority
-              />
+              <div className="relative">
+                <Image
+                  src="/logo.svg"
+                  alt="Garderie JulietteLea Logo"
+                  width={64}
+                  height={64}
+                  className="w-10 h-10 md:w-12 md:h-12 object-contain drop-shadow-md"
+                  priority
+                />
+              </div>
               <div>
                 <h2 className="font-bold text-xl text-slate-900">
                   {t("footer.brand")}

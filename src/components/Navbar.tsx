@@ -55,11 +55,11 @@ export default function Navbar({ open, setOpen, active }: NavbarProps) {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-2 md:py-4">
         <Link href="/" className="flex items-center gap-2 group">
           <Image
-            src="/logo.png"
+            src="/logo.svg"
             alt="Garderie JulietteLea Logo"
-            width={80}
-            height={80}
-            className="w-12 h-12 object-contain drop-shadow-md"
+            width={64}
+            height={64}
+            className="w-10 h-10 md:w-12 md:h-12 object-contain drop-shadow-md"
             priority
           />
           <div className="flex flex-col ml-1">

@@ -69,7 +69,7 @@ const Team = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
           viewport={{ once: true }}
-          className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-[#36B6DF] via-[#FFD43B] via-40% to-[#F06292] text-transparent bg-clip-text drop-shadow"
+          className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-teal-500 via-emerald-300 to-amber-400 text-transparent bg-clip-text drop-shadow"
         >
           {t("team.title")}
         </motion.h2>

@@ -95,12 +95,12 @@ const Program = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 mb-24 items-stretch">
           {activities.map((activity, index) => {
             const pastelBg = [
-              "from-green-200 to-blue-100",
-              "from-pink-200 to-yellow-100",
-              "from-blue-200 to-green-100",
-              "from-yellow-200 to-pink-100",
-              "from-purple-200 to-blue-100",
-              "from-orange-200 to-yellow-100",
+              "from-teal-200 to-emerald-100",
+              "from-amber-200 to-orange-100",
+              "from-sky-200 to-teal-100",
+              "from-lime-200 to-emerald-100",
+              "from-cyan-200 to-sky-100",
+              "from-orange-200 to-amber-100",
             ];
             const bg = pastelBg[index % pastelBg.length];
             return (
@@ -138,7 +138,7 @@ const Program = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="bg-gradient-to-r from-green-500 to-blue-500 rounded-3xl px-4 py-12 text-white text-center mb-24 relative overflow-hidden flex flex-col items-center"
+          className="bg-gradient-to-r from-teal-500 via-emerald-500 to-sky-500 rounded-3xl px-4 py-12 text-white text-center mb-24 relative overflow-hidden flex flex-col items-center"
         >
           <FaBook className="text-4xl mb-4" />
           <h3 className="text-4xl md:text-5xl font-extrabold mb-8 drop-shadow-sm">
@@ -155,7 +155,7 @@ const Program = () => {
             </div>
             <div className="flex justify-center gap-8 text-lg">
               <div className="flex items-center gap-2">
-                <FaChild className="text-pink-300" />
+                <FaChild className="text-teal-300" />
                 <span>{t("program.babies")}</span>
               </div>
               <div className="flex items-center gap-2">
@@ -167,7 +167,7 @@ const Program = () => {
 
           <div className="grid md:grid-cols-3 gap-8 mx-auto">
             <div className="bg-white/20 rounded-2xl py-4 px-22 flex flex-col items-center">
-              <FaChild className="text-5xl mb-2 text-pink-300 drop-shadow" />
+              <FaChild className="text-5xl mb-2 text-teal-300 drop-shadow" />
               <div className="text-3xl font-bold mb-1">1:5</div>
               <div className="text-lg font-medium">
                 {t("program.ratios.babies")}
@@ -218,11 +218,11 @@ const Program = () => {
             </defs>
           </svg>
         </div>
-        <section className="relative py-24 px-4 md:px-16 bg-gradient-to-br from-white via-blue-50 to-green-50 rounded-3xl shadow-2xl overflow-visible mb-32">
+        <section className="relative py-24 px-4 md:px-16 bg-gradient-to-br from-white via-emerald-50 to-sky-50 rounded-3xl shadow-2xl overflow-visible mb-32">
           {/* Floating pastel confetti and icons */}
-          <div className="absolute top-10 left-10 w-8 h-8 bg-pink-200 rounded-full opacity-60 animate-bounce-slow"></div>
-          <div className="absolute top-1/3 right-24 w-6 h-6 bg-yellow-200 rounded-full opacity-60 animate-bounce-slow animation-delay-2000"></div>
-          <div className="absolute bottom-10 left-1/2 w-10 h-10 bg-blue-200 rounded-full opacity-60 animate-bounce-slow animation-delay-1000"></div>
+          <div className="absolute top-10 left-10 w-8 h-8 bg-teal-200 rounded-full opacity-60 animate-bounce-slow"></div>
+          <div className="absolute top-1/3 right-24 w-6 h-6 bg-amber-200 rounded-full opacity-60 animate-bounce-slow animation-delay-2000"></div>
+          <div className="absolute bottom-10 left-1/2 w-10 h-10 bg-sky-200 rounded-full opacity-60 animate-bounce-slow animation-delay-1000"></div>
           <FaLanguage className="absolute top-24 left-1/3 text-blue-300 text-4xl opacity-30 animate-float-slow" />
           <FaSmileBeam className="absolute bottom-24 right-1/4 text-yellow-300 text-4xl opacity-30 animate-float-slow animation-delay-1500" />
           {/* Animated organic blob image overlapping columns */}
@@ -274,7 +274,7 @@ const Program = () => {
                 viewport={{ once: true }}
                 className="flex flex-col items-center mb-4 gap-5 bg-white/80 border-l-8 border-green-300 rounded-2xl p-6 shadow-xl hover:shadow-2xl hover:-rotate-2 transition-transform duration-300 group"
               >
-                <div className="w-14 h-14 mb-4 rounded-xl bg-gradient-to-br from-green-300 to-blue-200 flex items-center justify-center text-3xl text-green-700 shadow group-hover:scale-110 transition mx-auto">
+                <div className="w-14 h-14 mb-4 rounded-xl bg-gradient-to-br from-teal-300 to-emerald-200 flex items-center justify-center text-3xl text-teal-700 shadow group-hover:scale-110 transition mx-auto">
                   <FaRunning />
                 </div>
                 <div>
@@ -295,7 +295,7 @@ const Program = () => {
                 viewport={{ once: true }}
                 className="flex flex-col items-center mb-4 gap-5 bg-white/80 border-l-8 border-blue-300 rounded-2xl p-6 shadow-xl hover:shadow-2xl hover:rotate-2 transition-transform duration-300 group"
               >
-                <div className="w-14 h-14 mb-4 rounded-xl bg-gradient-to-br from-blue-300 to-purple-200 flex items-center justify-center text-3xl text-blue-700 shadow group-hover:scale-110 transition mx-auto">
+                <div className="w-14 h-14 mb-4 rounded-xl bg-gradient-to-br from-sky-300 to-teal-200 flex items-center justify-center text-3xl text-sky-700 shadow group-hover:scale-110 transition mx-auto">
                   <FaLanguage />
                 </div>
                 <div>
@@ -314,7 +314,7 @@ const Program = () => {
                 viewport={{ once: true }}
                 className="flex flex-col items-center gap-5 bg-white/80 border-l-8 border-yellow-300 rounded-2xl p-6 shadow-xl hover:shadow-2xl hover:-rotate-2 transition-transform duration-300 group"
               >
-                <div className="w-14 h-14 mb-4 rounded-xl bg-gradient-to-br from-yellow-300 to-pink-200 flex items-center justify-center text-3xl text-yellow-700 shadow group-hover:scale-110 transition mx-auto">
+                <div className="w-14 h-14 mb-4 rounded-xl bg-gradient-to-br from-amber-300 to-orange-200 flex items-center justify-center text-3xl text-amber-700 shadow group-hover:scale-110 transition mx-auto">
                   <FaSmileBeam />
                 </div>
                 <div>
