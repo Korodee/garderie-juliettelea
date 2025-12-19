@@ -34,7 +34,7 @@ const testimonials = {
       child: "Chloé, 4 ans",
       rating: 5,
       photo: "/Classe-juliettelea-16.jpg",
-      text: "Depuis que Chloé fréquente la garderie JulietteLea, elle a fait des progrès incroyables ! L'approche HighScope est fantastique et les activités sont toujours stimulantes. L'équipe est attentionnée et professionnelle.",
+      text: "Depuis que Chloé fréquente la garderie JulietteLea, elle a fait des progrès incroyables ! L'approche du Programme éducatif québécois est fantastique et les activités sont toujours stimulantes. L'équipe est attentionnée et professionnelle.",
       highlight: "Progrès remarquables",
     },
     {
@@ -76,7 +76,7 @@ const testimonials = {
       child: "Chloé, 4 years",
       rating: 5,
       photo: "/Classe-juliettelea-16.jpg",
-      text: "Since Chloé has been attending JulietteLea Daycare, she has made incredible progress! The HighScope approach is fantastic and the activities are always stimulating. The team is caring and professional.",
+      text: "Since Chloé has been attending JulietteLea Daycare, she has made incredible progress! The Quebec Educational Program approach is fantastic and the activities are always stimulating. The team is caring and professional.",
       highlight: "Remarkable progress",
     },
     {

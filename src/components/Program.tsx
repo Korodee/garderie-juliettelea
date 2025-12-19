@@ -132,7 +132,7 @@ const Program = () => {
           })}
         </div>
 
-        {/* Redesigned HighScope Approach Card */}
+        {/* Redesigned Quebec Educational Program Approach Card */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}

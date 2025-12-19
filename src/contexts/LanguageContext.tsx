@@ -127,7 +127,7 @@ const translations = {
       "Rénovation intérieure complète des espaces éducatifs pour offrir un environnement moderne et stimulant",
 
     // Program Section
-    "program.title": "Programme éducatif HighScope",
+    "program.title": "Programme éducatif québécois",
     "program.subtitle":
       "Apprendre en s'amusant, chaque jour, en français et en anglais.",
     "program.approach": "Approche",
@@ -272,7 +272,7 @@ const translations = {
     "footer.hours": "Lun-Ven: 7h00 - 18h00",
     "footer.services": "Nos Services",
     "footer.services.garderie": "Garderie éducative",
-    "footer.services.program": "Programme HighScope",
+    "footer.services.program": "Programme éducatif québécois",
     "footer.services.activities": "Activités stimulantes",
     "footer.services.nutrition": "Nutrition équilibrée",
     "footer.quick_links": "Liens rapides",
@@ -489,7 +489,7 @@ const translations = {
       "Complete interior renovation of educational spaces to offer a modern and stimulating environment",
 
     // Program Section
-    "program.title": "HighScope Educational Program",
+    "program.title": "Quebec Educational Program",
     "program.subtitle":
       "Learning through play, every day, in French and English.",
     "program.approach": "Approach",
@@ -627,7 +627,7 @@ const translations = {
     "footer.hours": "Mon-Fri: 7am - 6pm",
     "footer.services": "Our Services",
     "footer.services.garderie": "Educational Daycare",
-    "footer.services.program": "HighScope Program",
+    "footer.services.program": "Quebec Educational Program",
     "footer.services.activities": "Stimulating Activities",
     "footer.services.nutrition": "Balanced Nutrition",
     "footer.quick_links": "Quick Links",
