@@ -71,7 +71,7 @@ const About = () => {
   const stats = [
     {
       icon: <FaClock className="text-4xl text-blue-500" />,
-      number: "35+",
+      number: "22",
       label: t("stats.experience"),
       description: t("about.since"),
     },
@@ -136,7 +136,7 @@ const About = () => {
 
   const timeline = [
     {
-      year: "1987",
+      year: "2005",
       title: t("timeline.1987.title"),
       description: t("timeline.1987.description"),
     },

@@ -57,7 +57,7 @@ const Footer = () => {
             </h3>
             <div className="flex flex-col md:flex-row flex-wrap gap-4">
               <a
-                href="tel:5148377070"
+                href="tel:5147377070"
                 className="flex-1 min-w-[140px] bg-white rounded-xl shadow p-4 flex items-center gap-3 hover:shadow-md transition group"
               >
                 <span className="w-10 h-10 flex items-center justify-center rounded-lg bg-blue-50 group-hover:bg-blue-100 transition">
@@ -67,7 +67,7 @@ const Footer = () => {
                   <div className="font-semibold text-slate-900">
                     {t("footer.contact.phone")}
                   </div>
-                  <div className="text-sm text-slate-500">514 837-7070</div>
+                  <div className="text-sm text-slate-500">514 737-7070</div>
                 </div>
               </a>
               <a

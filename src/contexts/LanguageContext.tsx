@@ -20,8 +20,8 @@ const translations = {
     "hero.title": "Garderie JulietteLea",
     "hero.subtitle": "Une garderie de qualité",
     "hero.description":
-      "Depuis 1987, nous offrons un environnement sécuritaire, stimulant et bienveillant où chaque enfant peut grandir, apprendre et s'épanouir à son propre rythme.",
-    "hero.recommended": "Recommandé par les parents depuis 35+ ans",
+      "Depuis 2005, nous offrons un environnement sécuritaire, stimulant et bienveillant où chaque enfant peut grandir, apprendre et s'épanouir à son propre rythme.",
+    "hero.recommended": "Recommandé par les parents depuis 22 ans",
     "hero.cta": "Inscrire mon enfant",
     "hero.video": "Watch video",
 
@@ -36,7 +36,7 @@ const translations = {
     "nav.close_menu": "Fermer le menu",
 
     // About Section
-    "about.since": "Depuis 1987",
+    "about.since": "Depuis 2005",
     "about.history": "Notre Histoire",
     "about.history.description":
       "Plus de trois décennies d'excellence éducative, de passion et d'engagement envers le développement harmonieux de chaque enfant.",
@@ -51,7 +51,7 @@ const translations = {
       "Les principes qui guident chacune de nos actions et interactions quotidiennes",
     "about.journey": "Notre Parcours",
     "about.journey.description":
-      "Plus de 35 ans d'évolution et d'engagement envers l'excellence éducative",
+      "22 ans d'évolution et d'engagement envers l'excellence éducative",
     "about.regulatory.title": "Conformité Réglementaire",
     "about.regulatory.description":
       "Notre engagement envers l'excellence éducative s'accompagne d'une conformité rigoureuse aux normes gouvernementales.",
@@ -267,7 +267,7 @@ const translations = {
     "footer.brand": "Garderie JulietteLea",
     "footer.tagline": "Une garderie de qualité",
     "footer.description":
-      "Depuis 1987, nous offrons un environnement sécuritaire et stimulant pour le développement harmonieux de votre enfant.",
+      "Depuis 2005, nous offrons un environnement sécuritaire et stimulant pour le développement harmonieux de votre enfant.",
     "footer.contact": "Contact",
     "footer.hours": "Lun-Ven: 7h00 - 18h00",
     "footer.services": "Nos Services",
@@ -308,7 +308,7 @@ const translations = {
     // Footer Branding
     "footer.branding.tagline": "Une garderie de qualité",
     "footer.branding.description":
-      "Depuis 1987, nous offrons un environnement sécuritaire et stimulant pour le développement harmonieux de votre enfant.",
+      "Depuis 2005, nous offrons un environnement sécuritaire et stimulant pour le développement harmonieux de votre enfant.",
 
     // Admission Section
     "admission.title": "Admission & inscription",
@@ -349,9 +349,9 @@ const translations = {
       "Contribution réduite fixée par le gouvernement",
 
     // Admission Advantages
-    "admission.advantages.experience.title": "35+ années d'expérience",
+    "admission.advantages.experience.title": "22 années d'expérience",
     "admission.advantages.experience.description":
-      "Excellence reconnue depuis 1987",
+      "Excellence reconnue depuis 2005",
     "admission.advantages.team.title": "Équipe qualifiée",
     "admission.advantages.team.description":
       "Éducatrices diplômées et expérimentées",
@@ -383,8 +383,8 @@ const translations = {
     "hero.title": "JulietteLea Daycare",
     "hero.subtitle": "A Quality Daycare",
     "hero.description":
-      "Since 1987, we have offered a safe, stimulating, and nurturing environment where each child can grow, learn, and thrive at their own pace.",
-    "hero.recommended": "Recommended by parents for 35+ years",
+      "Since 2005, we have offered a safe, stimulating, and nurturing environment where each child can grow, learn, and thrive at their own pace.",
+    "hero.recommended": "Recommended by parents for 22 years",
     "hero.cta": "Register my child",
     "hero.video": "Watch video",
 
@@ -399,7 +399,7 @@ const translations = {
     "nav.close_menu": "Close Menu",
 
     // About Section
-    "about.since": "Since 1987",
+    "about.since": "Since 2005",
     "about.history": "Our History",
     "about.history.description":
       "Over three decades of educational excellence, passion, and commitment to the harmonious development of each child.",
@@ -414,7 +414,7 @@ const translations = {
       "The principles that guide each of our daily actions and interactions",
     "about.journey": "Our Journey",
     "about.journey.description":
-      "Over 35 years of evolution and commitment to educational excellence",
+      "22 years of evolution and commitment to educational excellence",
     "about.regulatory.title": "Regulatory Compliance",
     "about.regulatory.description":
       "Our commitment to educational excellence is accompanied by rigorous regulatory compliance.",
@@ -622,7 +622,7 @@ const translations = {
     "footer.brand": "JulietteLea Daycare",
     "footer.tagline": "A Quality Daycare",
     "footer.description":
-      "Since 1987, we have offered a safe, stimulating, and nurturing environment where each child can grow, learn, and thrive at their own pace.",
+      "Since 2005, we have offered a safe, stimulating, and nurturing environment where each child can grow, learn, and thrive at their own pace.",
     "footer.contact": "Contact",
     "footer.hours": "Mon-Fri: 7am - 6pm",
     "footer.services": "Our Services",
@@ -663,7 +663,7 @@ const translations = {
     // Footer Branding
     "footer.branding.tagline": "A Quality Daycare",
     "footer.branding.description":
-      "Since 1987, we have offered a safe, stimulating, and nurturing environment where each child can grow, learn, and thrive at their own pace.",
+      "Since 2005, we have offered a safe, stimulating, and nurturing environment where each child can grow, learn, and thrive at their own pace.",
 
     // Admission Section
     "admission.title": "Admission & Registration",
@@ -703,9 +703,9 @@ const translations = {
       "Reduced contribution set by the government",
 
     // Admission Advantages
-    "admission.advantages.experience.title": "35+ years of experience",
+    "admission.advantages.experience.title": "22 years of experience",
     "admission.advantages.experience.description":
-      "Recognized excellence since 1987",
+      "Recognized excellence since 2005",
     "admission.advantages.team.title": "Qualified team",
     "admission.advantages.team.description":
       "Diplomaed and experienced educators",
